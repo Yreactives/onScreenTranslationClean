@@ -1,0 +1,1034 @@
+CNN
+Hidden size = 128
+Initial Filter = 32
+Original CNN
+epoch: 1 / 10, train loss: 7.4594, evaluation loss: 5.9486, accuracy: 9.22%
+epoch: 2 / 10, train loss: 4.1157, evaluation loss: 1.2877, accuracy: 68.53%
+epoch: 3 / 10, train loss: 1.2873, evaluation loss: 0.3273, accuracy: 91.27%
+epoch: 4 / 10, train loss: 0.5876, evaluation loss: 0.1688, accuracy: 95.76%
+epoch: 5 / 10, train loss: 0.3703, evaluation loss: 0.1332, accuracy: 96.95%
+epoch: 6 / 10, train loss: 0.2763, evaluation loss: 0.1104, accuracy: 97.35%
+epoch: 7 / 10, train loss: 0.2128, evaluation loss: 0.1095, accuracy: 97.55%
+epoch: 8 / 10, train loss: 0.1793, evaluation loss: 0.1107, accuracy: 97.83%
+epoch: 9 / 10, train loss: 0.1511, evaluation loss: 0.0955, accuracy: 98.06%
+epoch: 10 / 10, train loss: 0.1321, evaluation loss: 0.1068, accuracy: 98.02%
+
+Hidden Size = 128
+Initial Filter = 32
+Original CNN + Batch Normalization
+epoch: 1 / 10, train loss: 7.1292, evaluation loss: 4.8096, accuracy: 20.38%
+epoch: 2 / 10, train loss: 3.3762, evaluation loss: 0.8340, accuracy: 80.42%
+epoch: 3 / 10, train loss: 0.9937, evaluation loss: 0.2052, accuracy: 95.03%
+epoch: 4 / 10, train loss: 0.4181, evaluation loss: 0.1207, accuracy: 97.03%
+epoch: 5 / 10, train loss: 0.2560, evaluation loss: 0.0817, accuracy: 98.11%
+epoch: 6 / 10, train loss: 0.1800, evaluation loss: 0.0725, accuracy: 98.40%
+epoch: 7 / 10, train loss: 0.1449, evaluation loss: 0.0930, accuracy: 98.12%
+epoch: 8 / 10, train loss: 0.1223, evaluation loss: 0.0827, accuracy: 98.29%
+epoch: 9 / 10, train loss: 0.1077, evaluation loss: 0.0860, accuracy: 98.32%
+epoch: 10 / 10, train loss: 0.0921, evaluation loss: 0.0782, accuracy: 98.60%
+
+Extended
+epoch: 1 / 20, train loss: 7.1854, evaluation loss: 5.0357, accuracy: 17.69%
+epoch: 2 / 20, train loss: 3.5114, evaluation loss: 0.9295, accuracy: 77.13%
+epoch: 3 / 20, train loss: 1.0245, evaluation loss: 0.2237, accuracy: 94.30%
+epoch: 4 / 20, train loss: 0.4220, evaluation loss: 0.1205, accuracy: 96.86%
+epoch: 5 / 20, train loss: 0.2535, evaluation loss: 0.0862, accuracy: 97.81%
+epoch: 6 / 20, train loss: 0.1841, evaluation loss: 0.0844, accuracy: 98.11%
+epoch: 7 / 20, train loss: 0.1444, evaluation loss: 0.0809, accuracy: 98.30%
+epoch: 8 / 20, train loss: 0.1167, evaluation loss: 0.0844, accuracy: 98.37%
+epoch: 9 / 20, train loss: 0.1076, evaluation loss: 0.0698, accuracy: 98.64%
+epoch: 10 / 20, train loss: 0.0947, evaluation loss: 0.0788, accuracy: 98.59%
+epoch: 11 / 20, train loss: 0.0836, evaluation loss: 0.0707, accuracy: 98.55%
+epoch: 12 / 20, train loss: 0.0784, evaluation loss: 0.0769, accuracy: 98.59%
+epoch: 13 / 20, train loss: 0.0773, evaluation loss: 0.0768, accuracy: 98.76%
+epoch: 14 / 20, train loss: 0.0713, evaluation loss: 0.0726, accuracy: 98.67%
+epoch: 15 / 20, train loss: 0.0676, evaluation loss: 0.0783, accuracy: 98.64%
+epoch: 16 / 20, train loss: 0.0641, evaluation loss: 0.0772, accuracy: 98.74%
+epoch: 17 / 20, train loss: 0.0653, evaluation loss: 0.0837, accuracy: 98.78%
+epoch: 18 / 20, train loss: 0.0605, evaluation loss: 0.0742, accuracy: 98.84%
+epoch: 19 / 20, train loss: 0.0568, evaluation loss: 0.0830, accuracy: 98.78%
+epoch: 20 / 20, train loss: 0.0558, evaluation loss: 0.0673, accuracy: 98.99%
+
+Hidden Size = 128
+Initial Filter = 64
+Original CNN + Batch Norm with 2x More Filter
+epoch: 1 / 10, train loss: 6.7162, evaluation loss: 3.6522, accuracy: 33.25%
+epoch: 2 / 10, train loss: 2.4391, evaluation loss: 0.4673, accuracy: 87.89%
+epoch: 3 / 10, train loss: 0.6637, evaluation loss: 0.1568, accuracy: 95.71%
+epoch: 4 / 10, train loss: 0.3246, evaluation loss: 0.1100, accuracy: 97.14%
+epoch: 5 / 10, train loss: 0.2259, evaluation loss: 0.0946, accuracy: 97.78%
+epoch: 6 / 10, train loss: 0.1758, evaluation loss: 0.0930, accuracy: 97.69%
+epoch: 7 / 10, train loss: 0.1402, evaluation loss: 0.1035, accuracy: 98.12%
+epoch: 8 / 10, train loss: 0.1247, evaluation loss: 0.0829, accuracy: 98.42%
+epoch: 9 / 10, train loss: 0.1039, evaluation loss: 0.0802, accuracy: 98.58%
+epoch: 10 / 10, train loss: 0.1025, evaluation loss: 0.0722, accuracy: 98.67%
+
+Hidden Size = 128
+Initial Filter = 128
+2x More Filter
+epoch: 1 / 10, train loss: 6.5342, evaluation loss: 3.0698, accuracy: 42.39%
+epoch: 2 / 10, train loss: 1.9989, evaluation loss: 0.4151, accuracy: 88.65%
+epoch: 3 / 10, train loss: 0.5520, evaluation loss: 0.1920, accuracy: 95.02%
+epoch: 4 / 10, train loss: 0.3141, evaluation loss: 0.1299, accuracy: 96.90%
+epoch: 5 / 10, train loss: 0.2214, evaluation loss: 0.0982, accuracy: 97.87%
+epoch: 6 / 10, train loss: 0.1831, evaluation loss: 0.1498, accuracy: 97.47%
+epoch: 7 / 10, train loss: 0.1534, evaluation loss: 0.1064, accuracy: 98.16%
+epoch: 8 / 10, train loss: 0.1312, evaluation loss: 0.1156, accuracy: 98.30%
+epoch: 9 / 10, train loss: 0.1256, evaluation loss: 0.0915, accuracy: 98.51%
+epoch: 10 / 10, train loss: 0.1096, evaluation loss: 0.1039, accuracy: 98.46%
+
+Hidden Size = 64
+Initial Filter = 64
+Decreased Hidden Size Impact
+epoch: 1 / 10, train loss: 7.3146, evaluation loss: 5.8739, accuracy: 9.90%
+epoch: 2 / 10, train loss: 4.7638, evaluation loss: 2.4317, accuracy: 51.34%
+epoch: 3 / 10, train loss: 2.1408, evaluation loss: 0.6755, accuracy: 82.84%
+epoch: 4 / 10, train loss: 0.8971, evaluation loss: 0.2295, accuracy: 93.99%
+epoch: 5 / 10, train loss: 0.4786, evaluation loss: 0.1431, accuracy: 96.50%
+epoch: 6 / 10, train loss: 0.3147, evaluation loss: 0.1108, accuracy: 97.35%
+epoch: 7 / 10, train loss: 0.2312, evaluation loss: 0.1026, accuracy: 97.74%
+epoch: 8 / 10, train loss: 0.1886, evaluation loss: 0.0910, accuracy: 97.73%
+epoch: 9 / 10, train loss: 0.1613, evaluation loss: 0.0735, accuracy: 98.18%
+epoch: 10 / 10, train loss: 0.1387, evaluation loss: 0.0936, accuracy: 98.01%
+
+Hidden Size = 256
+Initial Filter = 64
+Increased Hidden Size Impact
+epoch: 1 / 10, train loss: 5.9119, evaluation loss: 1.6490, accuracy: 64.17%
+epoch: 2 / 10, train loss: 1.1389, evaluation loss: 0.1923, accuracy: 95.31%
+epoch: 3 / 10, train loss: 0.3515, evaluation loss: 0.1336, accuracy: 96.86%
+epoch: 4 / 10, train loss: 0.2229, evaluation loss: 0.1276, accuracy: 97.44%
+epoch: 5 / 10, train loss: 0.1795, evaluation loss: 0.1140, accuracy: 97.87%
+epoch: 6 / 10, train loss: 0.1457, evaluation loss: 0.1308, accuracy: 98.01%
+epoch: 7 / 10, train loss: 0.1313, evaluation loss: 0.0987, accuracy: 98.41%
+epoch: 8 / 10, train loss: 0.1144, evaluation loss: 0.0868, accuracy: 98.58%
+epoch: 9 / 10, train loss: 0.1100, evaluation loss: 0.1051, accuracy: 98.57%
+epoch: 10 / 10, train loss: 0.0961, evaluation loss: 0.0923, accuracy: 98.59%
+
+Hidden Size = 256
+Initial Filter = 64
+Number of Layer Increased to 3
+epoch: 1 / 10, train loss: 5.5658, evaluation loss: 1.2404, accuracy: 72.78%
+epoch: 2 / 10, train loss: 0.7465, evaluation loss: 0.1513, accuracy: 96.70%
+epoch: 3 / 10, train loss: 0.2507, evaluation loss: 0.1087, accuracy: 97.61%
+epoch: 4 / 10, train loss: 0.1678, evaluation loss: 0.0905, accuracy: 98.11%
+epoch: 5 / 10, train loss: 0.1372, evaluation loss: 0.0953, accuracy: 98.19%
+epoch: 6 / 10, train loss: 0.1182, evaluation loss: 0.0836, accuracy: 98.32%
+epoch: 7 / 10, train loss: 0.1076, evaluation loss: 0.0902, accuracy: 98.46%
+epoch: 8 / 10, train loss: 0.0963, evaluation loss: 0.0778, accuracy: 98.64%
+epoch: 9 / 10, train loss: 0.0844, evaluation loss: 0.1016, accuracy: 98.30%
+epoch: 10 / 10, train loss: 0.0834, evaluation loss: 0.0773, accuracy: 98.79%
+
+Hidden Size = 256
+Initial Filter = 64
+Number of Layer Increased to 4
+epoch: 1 / 10, train loss: 5.7573, evaluation loss: 1.3935, accuracy: 69.76%
+epoch: 2 / 10, train loss: 0.7127, evaluation loss: 0.1743, accuracy: 95.29%
+epoch: 3 / 10, train loss: 0.2373, evaluation loss: 0.1187, accuracy: 97.31%
+epoch: 4 / 10, train loss: 0.1666, evaluation loss: 0.1147, accuracy: 97.90%
+epoch: 5 / 10, train loss: 0.1385, evaluation loss: 0.0986, accuracy: 98.27%
+epoch: 6 / 10, train loss: 0.1218, evaluation loss: 0.0911, accuracy: 98.08%
+epoch: 7 / 10, train loss: 0.1096, evaluation loss: 0.0921, accuracy: 98.46%
+epoch: 8 / 10, train loss: 0.0961, evaluation loss: 0.0839, accuracy: 98.69%
+epoch: 9 / 10, train loss: 0.0856, evaluation loss: 0.0971, accuracy: 98.53%
+epoch: 10 / 10, train loss: 0.0796, evaluation loss: 0.0691, accuracy: 98.89%
+
+
+
+CRNN
+CNN Hidden = 128
+CNN Initial Filter = 64
+LSTM Hidden = 64
+CRNN with Basic LSTM
+Epoch [1/20], Average Loss: 13.9293 Validation Loss: 7.8437
+
+Epoch [2/20], Average Loss: 7.8292 Validation Loss: 7.8425
+
+Epoch [3/20], Average Loss: 7.8268 Validation Loss: 7.8439
+
+Epoch [4/20], Average Loss: 7.8247 Validation Loss: 7.8390
+
+Epoch [5/20], Average Loss: 7.8152 Validation Loss: 7.8173
+咲
+Epoch [6/20], Average Loss: 7.7825 Validation Loss: 7.7644
+上敏冠
+Epoch [7/20], Average Loss: 7.7296 Validation Loss: 7.7192
+上Q路
+Epoch [8/20], Average Loss: 7.7032 Validation Loss: 7.7054
+上ス路作
+Epoch [9/20], Average Loss: 7.6937 Validation Loss: 7.7027
+上ス作
+Epoch [10/20], Average Loss: 7.6877 Validation Loss: 7.6993
+上ス作河
+Epoch [11/20], Average Loss: 7.6823 Validation Loss: 7.6998
+上託作河
+Epoch [12/20], Average Loss: 7.6774 Validation Loss: 7.7007
+上作河
+Epoch [13/20], Average Loss: 7.6729 Validation Loss: 7.7024
+上作髄河
+Epoch [14/20], Average Loss: 7.6691 Validation Loss: 7.7059
+上作髄河
+Epoch [15/20], Average Loss: 7.6661 Validation Loss: 7.7092
+上遣作髄河
+Epoch [16/20], Average Loss: 7.6634 Validation Loss: 7.7089
+上遣作髄河
+Epoch [17/20], Average Loss: 7.6616 Validation Loss: 7.7124
+上遣作髄河
+Epoch [18/20], Average Loss: 7.6597 Validation Loss: 7.7135
+上幹起作髄河
+Epoch [19/20], Average Loss: 7.6580 Validation Loss: 7.7155
+上幹起顧作髄二河
+Epoch [20/20], Average Loss: 7.6563 Validation Loss: 7.7155
+上幹起作片髄河
+
+CRNN with Layer Normalization
+Epoch [1/20], Average Loss: 11.3347 Validation Loss: 7.8525
+
+Epoch [2/20], Average Loss: 7.8363 Validation Loss: 7.8489
+
+Epoch [3/20], Average Loss: 7.8334 Validation Loss: 7.8492
+
+Epoch [4/20], Average Loss: 7.8329 Validation Loss: 7.8480
+
+Epoch [5/20], Average Loss: 7.8330 Validation Loss: 7.8479
+
+Epoch [6/20], Average Loss: 7.8325 Validation Loss: 7.8482
+
+Epoch [7/20], Average Loss: 7.8322 Validation Loss: 7.8488
+
+Epoch [8/20], Average Loss: 7.8315 Validation Loss: 7.8473
+
+Epoch [9/20], Average Loss: 7.8313 Validation Loss: 7.8475
+
+Epoch [10/20], Average Loss: 7.8305 Validation Loss: 7.8480
+
+Epoch [11/20], Average Loss: 7.8302 Validation Loss: 7.8477
+
+Epoch [12/20], Average Loss: 7.8294 Validation Loss: 7.8480
+
+Epoch [13/20], Average Loss: 7.8288 Validation Loss: 7.8490
+
+Epoch [14/20], Average Loss: 7.8272 Validation Loss: 7.8495
+
+Epoch [15/20], Average Loss: 7.8253 Validation Loss: 7.8500
+
+Epoch [16/20], Average Loss: 7.8238 Validation Loss: 7.8511
+
+Epoch [17/20], Average Loss: 7.8218 Validation Loss: 7.8510
+
+Epoch [18/20], Average Loss: 7.8199 Validation Loss: 7.8511
+
+Epoch [19/20], Average Loss: 7.8182 Validation Loss: 7.8511
+
+Epoch [20/20], Average Loss: 7.8160 Validation Loss: 7.8516
+
+
+CRNN with 2 layer and Normalized with Layer Norm
+Epoch [1/20], Average Loss: 11.7976 Validation Loss: 7.8530
+
+Epoch [2/20], Average Loss: 7.8385 Validation Loss: 7.8483
+
+Epoch [3/20], Average Loss: 7.8336 Validation Loss: 7.8490
+
+Epoch [4/20], Average Loss: 7.8329 Validation Loss: 7.8486
+
+Epoch [5/20], Average Loss: 7.8325 Validation Loss: 7.8493
+
+Epoch [6/20], Average Loss: 7.8316 Validation Loss: 7.8497
+
+Epoch [7/20], Average Loss: 7.8313 Validation Loss: 7.8466
+
+Epoch [8/20], Average Loss: 7.8291 Validation Loss: 7.8439
+
+Epoch [9/20], Average Loss: 7.8196 Validation Loss: 7.8263
+
+Epoch [10/20], Average Loss: 7.7887 Validation Loss: 7.7836
+
+Epoch [11/20], Average Loss: 7.7419 Validation Loss: 7.7484
+
+Epoch [12/20], Average Loss: 7.6924 Validation Loss: 7.6822
+
+Epoch [13/20], Average Loss: 7.5824 Validation Loss: 7.4485
+
+Epoch [14/20], Average Loss: 7.3015 Validation Loss: 7.0833
+宗宗尻名セ
+Epoch [15/20], Average Loss: 6.9155 Validation Loss: 6.6840
+民随随ぎ随添作比抗セ準
+Epoch [16/20], Average Loss: 6.5506 Validation Loss: 6.3001
+尻顧憾ボ績結各厄5固債焦
+Epoch [17/20], Average Loss: 6.1918 Validation Loss: 5.9159
+壮憾熱潮ガ旋憾約各厄伯5侵悲
+Epoch [18/20], Average Loss: 5.7555 Validation Loss: 5.3828
+壮駿熱諭外絞騒疲各店札K冒殴最
+Epoch [19/20], Average Loss: 5.2964 Validation Loss: 4.9090
+属拠瀦功絞属約各店促K冒筋渓
+Epoch [20/20], Average Loss: 4.8381 Validation Loss: 4.4822
+壮謄摘陶功絞陶納奇佳促K冒砲塗
+
+Same as above but without Layer Normalization
+Epoch [1/20], Average Loss: 14.3811 Validation Loss: 7.8458
+
+Epoch [2/20], Average Loss: 7.8279 Validation Loss: 7.8419
+
+Epoch [3/20], Average Loss: 7.8249 Validation Loss: 7.8424
+
+Epoch [4/20], Average Loss: 7.8220 Validation Loss: 7.8313
+潤
+Epoch [5/20], Average Loss: 7.8013 Validation Loss: 7.7928
+潤詠
+Epoch [6/20], Average Loss: 7.7560 Validation Loss: 7.7237
+非寂筋考
+Epoch [7/20], Average Loss: 7.7011 Validation Loss: 7.7004
+
+Epoch [8/20], Average Loss: 7.6893 Validation Loss: 7.6954
+
+Epoch [9/20], Average Loss: 7.6844 Validation Loss: 7.6939
+休
+Epoch [10/20], Average Loss: 7.6813 Validation Loss: 7.7063
+
+Epoch [11/20], Average Loss: 7.6777 Validation Loss: 7.7006
+昭普
+Epoch [12/20], Average Loss: 7.6739 Validation Loss: 7.7038
+昭二扇
+Epoch [13/20], Average Loss: 7.6693 Validation Loss: 7.7056
+昭色寿
+Epoch [14/20], Average Loss: 7.6645 Validation Loss: 7.7073
+梨昭準色鵜
+Epoch [15/20], Average Loss: 7.6604 Validation Loss: 7.7094
+梨昭準現鵜
+Epoch [16/20], Average Loss: 7.6569 Validation Loss: 7.7114
+梨裸昭準現鵜
+Epoch [17/20], Average Loss: 7.6540 Validation Loss: 7.7168
+梨裸摘準現鵜
+Epoch [18/20], Average Loss: 7.6513 Validation Loss: 7.7171
+梨裸摘準現鵜
+Epoch [19/20], Average Loss: 7.6487 Validation Loss: 7.7221
+梨裸摘誕寿鵜
+Epoch [20/20], Average Loss: 7.6463 Validation Loss: 7.7257
+梨才裸摘咲館準寿鵜
+
+Unidirectional LSTM to Bidirectional LSTM
+Epoch [1/20], Average Loss: 8.8696 Validation Loss: 7.8531
+
+Epoch [2/20], Average Loss: 7.8445 Validation Loss: 7.8538
+
+Epoch [3/20], Average Loss: 7.8433 Validation Loss: 7.8531
+
+Epoch [4/20], Average Loss: 7.8418 Validation Loss: 7.8528
+
+Epoch [5/20], Average Loss: 7.8396 Validation Loss: 7.8492
+
+Epoch [6/20], Average Loss: 7.8146 Validation Loss: 7.7893
+
+Epoch [7/20], Average Loss: 7.7316 Validation Loss: 7.7252
+
+Epoch [8/20], Average Loss: 7.5286 Validation Loss: 7.1601
+搾拝悲
+Epoch [9/20], Average Loss: 6.9495 Validation Loss: 6.7296
+応綱空綱惰笑色停惨雇時
+Epoch [10/20], Average Loss: 6.5299 Validation Loss: 6.1620
+非随端髄功股髄幹虫民昨辻図惰緊
+Epoch [11/20], Average Loss: 5.9259 Validation Loss: 5.4935
+非陳端瀦辺椎刷粘舎民吹辻図酌匿
+Epoch [12/20], Average Loss: 5.3270 Validation Loss: 4.8861
+非障静臓辺渡風泌茅忘赴K冒超援
+Epoch [13/20], Average Loss: 4.7157 Validation Loss: 4.4858
+壮障捕躍H較風析斉忘位K局宿授
+Epoch [14/20], Average Loss: 4.1383 Validation Loss: 3.4945
+非障摘臨辺較風泌具忘枚K局超溶
+Epoch [15/20], Average Loss: 3.5532 Validation Loss: 3.0055
+荘障摘磯辺鞍嵐軒宜忘枚K届超提
+Epoch [16/20], Average Loss: 3.0431 Validation Loss: 2.4849
+壮障摘臨辺較風泌宜忘枚K固超焦
+Epoch [17/20], Average Loss: 2.5930 Validation Loss: 1.8957
+荘障摘磯辺較風紋宜忘枚K局超窓
+Epoch [18/20], Average Loss: 2.2188 Validation Loss: 1.5464
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [19/20], Average Loss: 1.8758 Validation Loss: 1.3012
+壮障摘磯辺鞍風紋宜忘枚K局超溶
+Epoch [20/20], Average Loss: 1.6227 Validation Loss: 1.1932
+壮障摘慌辺鞍風紋宜忘枚K局超塔
+
+
+CRNN with Residual Connection
+Epoch [1/20], Average Loss: 8.1281 Validation Loss: 7.8629
+
+Epoch [2/20], Average Loss: 7.8535 Validation Loss: 7.8585
+
+Epoch [3/20], Average Loss: 7.8483 Validation Loss: 7.8592
+
+Epoch [4/20], Average Loss: 7.8277 Validation Loss: 7.7978
+
+Epoch [5/20], Average Loss: 7.7361 Validation Loss: 7.6629
+
+Epoch [6/20], Average Loss: 7.1912 Validation Loss: 6.5634
+柱臓繊か蓄偶芝宅貯K掌偶呼
+Epoch [7/20], Average Loss: 6.1183 Validation Loss: 5.4334
+作腹濁繊辺謝飲笑忘析K酌想陰
+Epoch [8/20], Average Loss: 5.1546 Validation Loss: 4.4111
+在縛摘瀦辺鉄粛欲宏尺析K国想原
+Epoch [9/20], Average Loss: 4.2606 Validation Loss: 3.4384
+壮噴摘憾辺鉄風敬宜忘枚K局超残
+Epoch [10/20], Average Loss: 3.4170 Validation Loss: 2.6184
+壮繕摘磯辺鉄嵐紋宜忘枚K局超落
+Epoch [11/20], Average Loss: 2.6817 Validation Loss: 1.7882
+壮障摘磯辺鞍風敬宜忘枚K局超残
+Epoch [12/20], Average Loss: 2.0964 Validation Loss: 1.4060
+荘障摘磯辺鞍風敬宜忘泌K局粗揺
+Epoch [13/20], Average Loss: 1.6426 Validation Loss: 0.9727
+荘障摘磯辺鞍風紋宜忘枚K局超落
+Epoch [14/20], Average Loss: 1.3133 Validation Loss: 0.6107
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [15/20], Average Loss: 1.0992 Validation Loss: 0.4665
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [16/20], Average Loss: 0.9089 Validation Loss: 0.3658
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [17/20], Average Loss: 0.8001 Validation Loss: 0.2881
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/20], Average Loss: 0.7237 Validation Loss: 0.2602
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [19/20], Average Loss: 0.6175 Validation Loss: 0.2306
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/20], Average Loss: 0.5746 Validation Loss: 0.1885
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with Attention Layer
+Epoch [1/20], Average Loss: 8.3119 Validation Loss: 7.8604
+
+Epoch [2/20], Average Loss: 7.8518 Validation Loss: 7.8599
+
+Epoch [3/20], Average Loss: 7.8466 Validation Loss: 7.8586
+
+Epoch [4/20], Average Loss: 7.8421 Validation Loss: 7.8480
+
+Epoch [5/20], Average Loss: 7.8101 Validation Loss: 7.7724
+
+Epoch [6/20], Average Loss: 7.6570 Validation Loss: 7.3606
+ツ政
+Epoch [7/20], Average Loss: 6.7970 Validation Loss: 6.0895
+辻腰関渡関放宝宅放み結
+Epoch [8/20], Average Loss: 5.7291 Validation Loss: 4.9935
+汗庫園需辺駆風放容臣放水閣恩盲
+Epoch [9/20], Average Loss: 4.8049 Validation Loss: 4.1819
+狂庫親随辺岐嵐収忘忘依K局恩痘
+Epoch [10/20], Average Loss: 3.9531 Validation Loss: 3.1166
+汗障捕随辺鞍風放宜忘枚K局恩捨
+Epoch [11/20], Average Loss: 3.1849 Validation Loss: 2.3838
+汗謄摘磯辺鞍嵐紋宜忘枚K局超溶
+Epoch [12/20], Average Loss: 2.5356 Validation Loss: 1.7667
+壮障摘磯辺較嵐紋宜忘枚K局超捨
+Epoch [13/20], Average Loss: 2.0317 Validation Loss: 1.2014
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [14/20], Average Loss: 1.6652 Validation Loss: 0.8769
+荘障摘磯辺鞍嵐政宜忘枚K局超落
+Epoch [15/20], Average Loss: 1.3591 Validation Loss: 0.6615
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [16/20], Average Loss: 1.1329 Validation Loss: 0.5032
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [17/20], Average Loss: 0.9750 Validation Loss: 0.4540
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/20], Average Loss: 0.8550 Validation Loss: 0.3192
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [19/20], Average Loss: 0.7439 Validation Loss: 0.2520
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/20], Average Loss: 0.6780 Validation Loss: 0.2167
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with 2 Head Attention Layer
+Epoch [1/20], Average Loss: 8.1498 Validation Loss: 7.8630
+
+Epoch [2/20], Average Loss: 7.8541 Validation Loss: 7.8596
+
+Epoch [3/20], Average Loss: 7.8485 Validation Loss: 7.8572
+
+Epoch [4/20], Average Loss: 7.8435 Validation Loss: 7.8488
+
+Epoch [5/20], Average Loss: 7.8103 Validation Loss: 7.7786
+
+Epoch [6/20], Average Loss: 7.6825 Validation Loss: 7.5003
+ビ削
+Epoch [7/20], Average Loss: 7.1630 Validation Loss: 6.7942
+薦融均振薦俊白球綱署諮
+Epoch [8/20], Average Loss: 6.4818 Validation Loss: 5.9985
+柱鎌捕髄添髄祥合を現粕盾
+Epoch [9/20], Average Loss: 5.7914 Validation Loss: 5.3323
+米標捕功較捕放斉宗状K図昭特
+Epoch [10/20], Average Loss: 5.0878 Validation Loss: 4.4771
+荘騒鋼嶋功添嵐敗奇臣紅K弱囲捨
+Epoch [11/20], Average Loss: 4.4476 Validation Loss: 3.8089
+近障捕陳功鞍嵐呼奇忘枚K図囲涼
+Epoch [12/20], Average Loss: 3.8576 Validation Loss: 3.1724
+壮庫摘鴨功鞍嵐呼京忘収K局商涼
+Epoch [13/20], Average Loss: 3.3183 Validation Loss: 2.5352
+共障摘瀦辺鞍嵐敗宜忘収K局商捨
+Epoch [14/20], Average Loss: 2.7855 Validation Loss: 2.0045
+荘庫摘瀦辺鞍嵐敗宜忘枚K局超塔
+Epoch [15/20], Average Loss: 2.3377 Validation Loss: 1.5363
+荘障摘機辺鞍嵐紋宜忘枚K局超塔
+Epoch [16/20], Average Loss: 1.9694 Validation Loss: 1.2057
+荘障摘機辺鞍嵐紋宜忘枚K局超落
+Epoch [17/20], Average Loss: 1.6519 Validation Loss: 0.9590
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/20], Average Loss: 1.4179 Validation Loss: 0.8710
+荘障摘磯辺鞍嵐紋宜忘枚K局超塔
+Epoch [19/20], Average Loss: 1.2707 Validation Loss: 0.5938
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/20], Average Loss: 1.1023 Validation Loss: 0.4680
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with 4 head attention layer
+Epoch [1/20], Average Loss: 8.2480 Validation Loss: 7.8640
+
+Epoch [2/20], Average Loss: 7.8532 Validation Loss: 7.8582
+
+Epoch [3/20], Average Loss: 7.8475 Validation Loss: 7.8523
+
+Epoch [4/20], Average Loss: 7.8250 Validation Loss: 7.8012
+
+Epoch [5/20], Average Loss: 7.7410 Validation Loss: 7.6485
+
+Epoch [6/20], Average Loss: 7.2120 Validation Loss: 6.7623
+廷戦外伊当外吟L図
+Epoch [7/20], Average Loss: 6.3862 Validation Loss: 5.8807
+兆嶋潮腰外剰眠宣汐林K座硝硝
+Epoch [8/20], Average Loss: 5.5592 Validation Loss: 4.9728
+壮階測爆外較絞答柱校K信椎格
+Epoch [9/20], Average Loss: 4.7531 Validation Loss: 4.1065
+壮嘆潮開辺較蘭絶答汽析K固超複
+Epoch [10/20], Average Loss: 4.0227 Validation Loss: 3.4224
+荘階穂閲巧転風絞宜法析K昌混復
+Epoch [11/20], Average Loss: 3.4185 Validation Loss: 2.6839
+壮障摘閲巧軽風約宜忘沿K局超海
+Epoch [12/20], Average Loss: 2.9182 Validation Loss: 2.1833
+壮謄摘磯辺鞍嵐約宜汽枚K局超複
+Epoch [13/20], Average Loss: 2.4421 Validation Loss: 1.7104
+炎噴摘解辺鞍嵐約宜汚枚K届超湊
+Epoch [14/20], Average Loss: 2.0629 Validation Loss: 1.3872
+荘曜摘磯辺鞍嵐紋宜汚枚K局超複
+Epoch [15/20], Average Loss: 1.7437 Validation Loss: 1.0215
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [16/20], Average Loss: 1.4988 Validation Loss: 0.8683
+壮障摘磯辺鞍風紋宜忘杯K局超落
+Epoch [17/20], Average Loss: 1.2845 Validation Loss: 0.6399
+荘障摘瀦辺鞍圏嵐紋宜忘枚K局超落
+Epoch [18/20], Average Loss: 1.1068 Validation Loss: 0.5393
+壮障摘瀦辺鞍風紋宜忘枚K局超落
+Epoch [19/20], Average Loss: 0.9770 Validation Loss: 0.5229
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/20], Average Loss: 0.8909 Validation Loss: 0.3892
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with 8 head attention layer
+Epoch [1/20], Average Loss: 8.1997 Validation Loss: 7.8611
+
+Epoch [2/20], Average Loss: 7.8529 Validation Loss: 7.8611
+
+Epoch [3/20], Average Loss: 7.8479 Validation Loss: 7.8545
+
+Epoch [4/20], Average Loss: 7.8352 Validation Loss: 7.8196
+
+Epoch [5/20], Average Loss: 7.7683 Validation Loss: 7.7323
+
+Epoch [6/20], Average Loss: 7.6190 Validation Loss: 7.3212
+者腰
+Epoch [7/20], Average Loss: 6.9311 Validation Loss: 6.3951
+荻顧偶腸内幹妊吏皮臣る納飽幹
+Epoch [8/20], Average Loss: 6.1091 Validation Loss: 5.5007
+柱轄関薦也膨泌券ぽ杯午習稲等
+Epoch [9/20], Average Loss: 5.3275 Validation Loss: 4.6927
+共障摘確可較風泌京拒兆固据程
+Epoch [10/20], Average Loss: 4.5892 Validation Loss: 3.9287
+祥償摘磯功較風泌京忘収K局雨塔
+Epoch [11/20], Average Loss: 3.8685 Validation Loss: 3.1207
+荘障摘確功較風泌宜忘枚K伺恩塔
+Epoch [12/20], Average Loss: 3.2681 Validation Loss: 2.5597
+荘障摘機辺較嵐泌宜忘枚K局超塔
+Epoch [13/20], Average Loss: 2.7448 Validation Loss: 2.0057
+荘障捕機辺較風政宜忘K局超落
+Epoch [14/20], Average Loss: 2.2810 Validation Loss: 1.5338
+荘障摘機辺較嵐政宜忘枚K局超落
+Epoch [15/20], Average Loss: 1.9026 Validation Loss: 1.1756
+荘障摘磯辺鞍嵐政宜忘枚K局超落
+Epoch [16/20], Average Loss: 1.6319 Validation Loss: 0.9760
+荘障摘磯辺較嵐紋宜忘枚K局超塔
+Epoch [17/20], Average Loss: 1.4021 Validation Loss: 0.7360
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/20], Average Loss: 1.2667 Validation Loss: 0.6352
+荘障摘磯辺鞍嵐紋宜忘枚K局超塔
+Epoch [19/20], Average Loss: 1.0866 Validation Loss: 0.5181
+荘障摘機辺鞍嵐紋宜忘枚K局超塔
+Epoch [20/20], Average Loss: 0.9591 Validation Loss: 0.4668
+壮障摘磯辺鞍嵐紋宜忘枚K局超塔
+
+CRNN with 128 Hidden Size
+Epoch [1/10], Average Loss: 8.3203 Validation Loss: 7.8724
+
+Epoch [2/10], Average Loss: 7.8619 Validation Loss: 7.8659
+
+Epoch [3/10], Average Loss: 7.8444 Validation Loss: 7.8023
+
+Epoch [4/10], Average Loss: 7.6806 Validation Loss: 7.4176
+瑞孫瑞才親
+Epoch [5/10], Average Loss: 6.6352 Validation Loss: 5.5815
+柱緯瀬駒出峡謝泌宜忘L届傾陰
+Epoch [6/10], Average Loss: 4.9704 Validation Loss: 3.8912
+非障摘瀦円絞嵐飲客忘収届砲深
+Epoch [7/10], Average Loss: 3.5830 Validation Loss: 2.5473
+共謄捕磯辺較嵐枚宜忘次欠国超捨
+Epoch [8/10], Average Loss: 2.4123 Validation Loss: 1.4310
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [9/10], Average Loss: 1.6224 Validation Loss: 1.0224
+壮障浦磯辺鞍嵐紋宜忘必K局超落
+Epoch [10/10], Average Loss: 1.1646 Validation Loss: 0.5407
+荘障摘磯辺鞍風紋宜忘枚K局超落
+Epoch [11/20], Average Loss: 0.8829 Validation Loss: 0.3033
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [12/20], Average Loss: 0.7130 Validation Loss: 0.3160
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [13/20], Average Loss: 0.6189 Validation Loss: 0.2303
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [14/20], Average Loss: 0.5205 Validation Loss: 0.2293
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [15/20], Average Loss: 0.4506 Validation Loss: 0.1197
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [16/20], Average Loss: 0.4097 Validation Loss: 0.1213
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [17/20], Average Loss: 0.3650 Validation Loss: 0.0878
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/20], Average Loss: 0.3413 Validation Loss: 0.0820
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [19/20], Average Loss: 0.3006 Validation Loss: 0.0752
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/20], Average Loss: 0.2809 Validation Loss: 0.0778
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with 256 hidden size
+Epoch [1/10], Average Loss: 7.9945 Validation Loss: 7.8806
+
+Epoch [2/10], Average Loss: 7.8625 Validation Loss: 7.8461
+
+Epoch [3/10], Average Loss: 7.5846 Validation Loss: 6.8340
+貯籍翻札翻拙理麦批タ懲懲験
+Epoch [4/10], Average Loss: 5.0008 Validation Loss: 2.8744
+非障摘懸辺鞍嵐枚宜臣吹K偵商捨
+Epoch [5/10], Average Loss: 2.3592 Validation Loss: 1.1566
+狂障摘磯辺鞍嵐紋宜忘枚K局超捨
+Epoch [6/10], Average Loss: 1.1374 Validation Loss: 0.3737
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [7/10], Average Loss: 0.7026 Validation Loss: 0.1943
+荘障摘磯辺鞍嵐紋宜忘牧K局超落
+Epoch [8/10], Average Loss: 0.5339 Validation Loss: 0.1520
+荘障摘磯辺鞍嵐紋宜忘牧K局超落
+Epoch [9/10], Average Loss: 0.4280 Validation Loss: 0.1025
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [10/10], Average Loss: 0.3565 Validation Loss: 0.0910
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with 128 Hidden Size and Attention Layer
+Epoch [1/10], Average Loss: 8.0331 Validation Loss: 7.8637
+
+Epoch [2/10], Average Loss: 7.7708 Validation Loss: 7.5058
+
+Epoch [3/10], Average Loss: 4.7367 Validation Loss: 2.3562
+壮障磯辺嵐敏宣忘局超客
+Epoch [4/10], Average Loss: 1.0755 Validation Loss: 0.4534
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [5/10], Average Loss: 0.2462 Validation Loss: 0.1634
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [6/10], Average Loss: 0.1033 Validation Loss: 0.0948
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [7/10], Average Loss: 0.0619 Validation Loss: 0.0664
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [8/10], Average Loss: 0.0470 Validation Loss: 0.0817
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [9/10], Average Loss: 0.0406 Validation Loss: 0.0492
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [10/10], Average Loss: 0.0359 Validation Loss: 0.0547
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN with 256 Hidden Size and MultiHead Attention Layer
+Epoch [1/10], Average Loss: 8.0686 Validation Loss: 7.8741
+
+Epoch [2/10], Average Loss: 6.7045 Validation Loss: 3.1513
+王障怖磯乙鞍敏敬宣忘欲乙斎租客
+Epoch [3/10], Average Loss: 1.0053 Validation Loss: 0.2277
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [4/10], Average Loss: 0.1259 Validation Loss: 0.0959
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [5/10], Average Loss: 0.0664 Validation Loss: 0.0799
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [6/10], Average Loss: 0.0517 Validation Loss: 0.0714
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [7/10], Average Loss: 0.0481 Validation Loss: 0.0649
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [8/10], Average Loss: 0.0431 Validation Loss: 0.0503
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [9/10], Average Loss: 0.0344 Validation Loss: 0.0496
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [10/10], Average Loss: 0.0340 Validation Loss: 0.0419
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+CRNN 50 epochs same as above
+Epoch [1/50], Average Loss: 7.9997 Validation Loss: 7.8638
+
+Epoch [2/50], Average Loss: 7.7556 Validation Loss: 7.4302
+
+Epoch [3/50], Average Loss: 4.7646 Validation Loss: 2.4206
+荘庫摘磯辺味嵐枚宣忘枚K問超落
+Epoch [4/50], Average Loss: 1.1787 Validation Loss: 0.4914
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [5/50], Average Loss: 0.2644 Validation Loss: 0.1776
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [6/50], Average Loss: 0.1070 Validation Loss: 0.0951
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [7/50], Average Loss: 0.0668 Validation Loss: 0.0753
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [8/50], Average Loss: 0.0465 Validation Loss: 0.0600
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [9/50], Average Loss: 0.0378 Validation Loss: 0.0467
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [10/50], Average Loss: 0.0307 Validation Loss: 0.0498
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [11/50], Average Loss: 0.0255 Validation Loss: 0.0419
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [12/50], Average Loss: 0.0254 Validation Loss: 0.0416
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [13/50], Average Loss: 0.0210 Validation Loss: 0.0352
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [14/50], Average Loss: 0.0195 Validation Loss: 0.0334
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [15/50], Average Loss: 0.0148 Validation Loss: 0.0397
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [16/50], Average Loss: 0.0136 Validation Loss: 0.0373
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [17/50], Average Loss: 0.0111 Validation Loss: 0.0386
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/50], Average Loss: 0.0112 Validation Loss: 0.0356
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [19/50], Average Loss: 0.0081 Validation Loss: 0.0346
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/50], Average Loss: 0.0089 Validation Loss: 0.0480
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+FC Neuron = 64
+Filter = 32
+Original CNN
+epoch: 1 / 10, train loss: 6.7618, evaluation loss: 4.5582, accuracy: 23.63%
+epoch: 2 / 10, train loss: 2.6759, evaluation loss: 1.2115, accuracy: 74.17%
+epoch: 3 / 10, train loss: 0.6422, evaluation loss: 0.3235, accuracy: 93.68%
+epoch: 4 / 10, train loss: 0.2367, evaluation loss: 0.1770, accuracy: 96.28%
+epoch: 5 / 10, train loss: 0.1369, evaluation loss: 0.1382, accuracy: 96.90%
+epoch: 6 / 10, train loss: 0.0949, evaluation loss: 0.1179, accuracy: 97.52%
+epoch: 7 / 10, train loss: 0.0767, evaluation loss: 0.0935, accuracy: 98.09%
+epoch: 8 / 10, train loss: 0.0613, evaluation loss: 0.0911, accuracy: 98.30%
+epoch: 9 / 10, train loss: 0.0536, evaluation loss: 0.0994, accuracy: 98.05%
+epoch: 10 / 10, train loss: 0.0478, evaluation loss: 0.0829, accuracy: 98.47%
+
+FC Neuron = 64
+Filter = 32
+CNN with Batch Normalization
+epoch: 1 / 10, train loss: 6.5985, evaluation loss: 4.6747, accuracy: 25.27%
+epoch: 2 / 10, train loss: 2.7675, evaluation loss: 1.2863, accuracy: 77.34%
+epoch: 3 / 10, train loss: 0.6341, evaluation loss: 0.2946, accuracy: 96.00%
+epoch: 4 / 10, train loss: 0.1885, evaluation loss: 0.1349, accuracy: 97.90%
+epoch: 5 / 10, train loss: 0.0980, evaluation loss: 0.0894, accuracy: 98.34%
+epoch: 6 / 10, train loss: 0.0666, evaluation loss: 0.0852, accuracy: 98.36%
+epoch: 7 / 10, train loss: 0.0486, evaluation loss: 0.0743, accuracy: 98.51%
+epoch: 8 / 10, train loss: 0.0430, evaluation loss: 0.0736, accuracy: 98.71%
+epoch: 9 / 10, train loss: 0.0362, evaluation loss: 0.0728, accuracy: 98.72%
+epoch: 10 / 10, train loss: 0.0342, evaluation loss: 0.0888, accuracy: 98.31%
+
+Extended
+epoch: 1 / 20, train loss: 6.5243, evaluation loss: 4.6066, accuracy: 26.19%
+epoch: 2 / 20, train loss: 2.7071, evaluation loss: 1.2526, accuracy: 78.21%
+epoch: 3 / 20, train loss: 0.6250, evaluation loss: 0.2983, accuracy: 95.52%
+epoch: 4 / 20, train loss: 0.1878, evaluation loss: 0.1289, accuracy: 97.89%
+epoch: 5 / 20, train loss: 0.0970, evaluation loss: 0.0893, accuracy: 98.28%
+epoch: 6 / 20, train loss: 0.0663, evaluation loss: 0.0836, accuracy: 98.34%
+epoch: 7 / 20, train loss: 0.0531, evaluation loss: 0.0761, accuracy: 98.59%
+epoch: 8 / 20, train loss: 0.0443, evaluation loss: 0.0791, accuracy: 98.42%
+epoch: 9 / 20, train loss: 0.0357, evaluation loss: 0.0677, accuracy: 98.75%
+epoch: 10 / 20, train loss: 0.0310, evaluation loss: 0.0796, accuracy: 98.53%
+epoch: 11 / 20, train loss: 0.0306, evaluation loss: 0.0704, accuracy: 98.67%
+epoch: 12 / 20, train loss: 0.0287, evaluation loss: 0.0737, accuracy: 98.76%
+epoch: 13 / 20, train loss: 0.0275, evaluation loss: 0.0658, accuracy: 98.91%
+epoch: 14 / 20, train loss: 0.0249, evaluation loss: 0.0568, accuracy: 98.88%
+epoch: 15 / 20, train loss: 0.0203, evaluation loss: 0.0665, accuracy: 98.69%
+epoch: 16 / 20, train loss: 0.0242, evaluation loss: 0.0689, accuracy: 98.71%
+epoch: 17 / 20, train loss: 0.0184, evaluation loss: 0.0666, accuracy: 98.90%
+epoch: 18 / 20, train loss: 0.0188, evaluation loss: 0.0616, accuracy: 98.84%
+epoch: 19 / 20, train loss: 0.0177, evaluation loss: 0.0641, accuracy: 98.90%
+epoch: 20 / 20, train loss: 0.0170, evaluation loss: 0.0625, accuracy: 98.94%
+
+FC Neuron = 64
+Filter = 64
+epoch: 1 / 10, train loss: 6.0289, evaluation loss: 3.6818, accuracy: 39.05%
+epoch: 2 / 10, train loss: 1.9165, evaluation loss: 0.7285, accuracy: 88.32%
+epoch: 3 / 10, train loss: 0.3580, evaluation loss: 0.1953, accuracy: 96.96%
+epoch: 4 / 10, train loss: 0.1316, evaluation loss: 0.1105, accuracy: 98.08%
+epoch: 5 / 10, train loss: 0.0832, evaluation loss: 0.1064, accuracy: 98.25%
+epoch: 6 / 10, train loss: 0.0658, evaluation loss: 0.1105, accuracy: 97.86%
+epoch: 7 / 10, train loss: 0.0549, evaluation loss: 0.0935, accuracy: 98.31%
+epoch: 8 / 10, train loss: 0.0493, evaluation loss: 0.0961, accuracy: 98.21%
+epoch: 9 / 10, train loss: 0.0426, evaluation loss: 0.0722, accuracy: 98.77%
+epoch: 10 / 10, train loss: 0.0397, evaluation loss: 0.0711, accuracy: 98.70%
+
+FC Neuron = 64
+Filter = 128
+epoch: 1 / 10, train loss: 5.6838, evaluation loss: 2.9134, accuracy: 48.82%
+epoch: 2 / 10, train loss: 1.3960, evaluation loss: 0.4605, accuracy: 92.54%
+epoch: 3 / 10, train loss: 0.2418, evaluation loss: 0.1781, accuracy: 96.70%
+epoch: 4 / 10, train loss: 0.1181, evaluation loss: 0.1238, accuracy: 97.55%
+epoch: 5 / 10, train loss: 0.0869, evaluation loss: 0.1048, accuracy: 98.16%
+epoch: 6 / 10, train loss: 0.0719, evaluation loss: 0.1216, accuracy: 97.71%
+epoch: 7 / 10, train loss: 0.0644, evaluation loss: 0.1006, accuracy: 98.25%
+epoch: 8 / 10, train loss: 0.0589, evaluation loss: 0.0951, accuracy: 98.17%
+epoch: 9 / 10, train loss: 0.0567, evaluation loss: 0.0924, accuracy: 98.37%
+epoch: 10 / 10, train loss: 0.0504, evaluation loss: 0.0966, accuracy: 98.51%
+
+FC Neuron = 64
+Filter = 256
+epoch: 1 / 10, train loss: 5.5778, evaluation loss: 2.5764, accuracy: 53.80%
+epoch: 2 / 10, train loss: 1.1876, evaluation loss: 0.3929, accuracy: 92.85%
+epoch: 3 / 10, train loss: 0.2383, evaluation loss: 0.1990, accuracy: 95.99%
+epoch: 4 / 10, train loss: 0.1406, evaluation loss: 0.2060, accuracy: 95.43%
+epoch: 5 / 10, train loss: 0.1147, evaluation loss: 0.1640, accuracy: 96.76%
+epoch: 6 / 10, train loss: 0.0953, evaluation loss: 0.1347, accuracy: 97.57%
+epoch: 7 / 10, train loss: 0.0758, evaluation loss: 0.1419, accuracy: 97.28%
+epoch: 8 / 10, train loss: 0.0772, evaluation loss: 0.0989, accuracy: 98.41%
+epoch: 9 / 10, train loss: 0.0678, evaluation loss: 0.1231, accuracy: 97.93%
+epoch: 10 / 10, train loss: 0.0626, evaluation loss: 0.1525, accuracy: 97.54%
+
+FC Neuron = 128
+Filter = 64
+epoch: 1 / 10, train loss: 4.6911, evaluation loss: 1.1915, accuracy: 79.92%
+epoch: 2 / 10, train loss: 0.4188, evaluation loss: 0.1571, accuracy: 97.55%
+epoch: 3 / 10, train loss: 0.1119, evaluation loss: 0.1128, accuracy: 98.00%
+epoch: 4 / 10, train loss: 0.0848, evaluation loss: 0.1051, accuracy: 98.00%
+epoch: 5 / 10, train loss: 0.0676, evaluation loss: 0.0908, accuracy: 98.24%
+epoch: 6 / 10, train loss: 0.0599, evaluation loss: 0.0775, accuracy: 98.83%
+epoch: 7 / 10, train loss: 0.0573, evaluation loss: 0.0909, accuracy: 98.72%
+epoch: 8 / 10, train loss: 0.0511, evaluation loss: 0.0974, accuracy: 98.57%
+epoch: 9 / 10, train loss: 0.0438, evaluation loss: 0.0699, accuracy: 98.91%
+epoch: 10 / 10, train loss: 0.0379, evaluation loss: 0.0875, accuracy: 98.84%
+
+FC Neuron = 256
+Filter = 64
+epoch: 1 / 10, train loss: 3.4906, evaluation loss: 0.3004, accuracy: 95.42%
+epoch: 2 / 10, train loss: 0.1732, evaluation loss: 0.1281, accuracy: 97.47%
+epoch: 3 / 10, train loss: 0.1115, evaluation loss: 0.1105, accuracy: 98.05%
+epoch: 4 / 10, train loss: 0.0946, evaluation loss: 0.0903, accuracy: 98.43%
+epoch: 5 / 10, train loss: 0.0815, evaluation loss: 0.0931, accuracy: 98.60%
+epoch: 6 / 10, train loss: 0.0664, evaluation loss: 0.0905, accuracy: 98.43%
+epoch: 7 / 10, train loss: 0.0579, evaluation loss: 0.1013, accuracy: 98.42%
+epoch: 8 / 10, train loss: 0.0542, evaluation loss: 0.0755, accuracy: 98.70%
+epoch: 9 / 10, train loss: 0.0526, evaluation loss: 0.0759, accuracy: 99.04%
+epoch: 10 / 10, train loss: 0.0435, evaluation loss: 0.0665, accuracy: 98.89%
+
+3 Layer CNN
+epoch: 1 / 10, train loss: 3.3013, evaluation loss: 0.2517, accuracy: 95.55%
+epoch: 2 / 10, train loss: 0.1660, evaluation loss: 0.1290, accuracy: 97.72%
+epoch: 3 / 10, train loss: 0.1141, evaluation loss: 0.1254, accuracy: 97.95%
+epoch: 4 / 10, train loss: 0.0941, evaluation loss: 0.1263, accuracy: 97.71%
+epoch: 5 / 10, train loss: 0.0790, evaluation loss: 0.1134, accuracy: 98.37%
+epoch: 6 / 10, train loss: 0.0725, evaluation loss: 0.0874, accuracy: 98.64%
+epoch: 7 / 10, train loss: 0.0611, evaluation loss: 0.0788, accuracy: 98.76%
+epoch: 8 / 10, train loss: 0.0607, evaluation loss: 0.0756, accuracy: 98.97%
+epoch: 9 / 10, train loss: 0.0515, evaluation loss: 0.0715, accuracy: 98.84%
+epoch: 10 / 10, train loss: 0.0430, evaluation loss: 0.0653, accuracy: 99.05%
+
+4 Layer CNN
+epoch: 1 / 10, train loss: 3.1228, evaluation loss: 0.2153, accuracy: 96.07%
+epoch: 2 / 10, train loss: 0.1603, evaluation loss: 0.1074, accuracy: 98.01%
+epoch: 3 / 10, train loss: 0.1165, evaluation loss: 0.0968, accuracy: 98.40%
+epoch: 4 / 10, train loss: 0.0962, evaluation loss: 0.1004, accuracy: 98.31%
+epoch: 5 / 10, train loss: 0.0897, evaluation loss: 0.1077, accuracy: 98.39%
+epoch: 6 / 10, train loss: 0.0710, evaluation loss: 0.0801, accuracy: 98.83%
+epoch: 7 / 10, train loss: 0.0651, evaluation loss: 0.0970, accuracy: 98.43%
+epoch: 8 / 10, train loss: 0.0551, evaluation loss: 0.0776, accuracy: 98.90%
+epoch: 9 / 10, train loss: 0.0502, evaluation loss: 0.0759, accuracy: 98.89%
+epoch: 10 / 10, train loss: 0.0431, evaluation loss: 0.0632, accuracy: 99.00%
+
+
+Epoch [1/50], Average Loss: 8.0252 Validation Loss: 7.8545
+
+Epoch [2/50], Average Loss: 6.1472 Validation Loss: 2.1702
+荘障摘後辺軽嵐紋宜忘枚K局超落
+Epoch [3/50], Average Loss: 0.6400 Validation Loss: 0.1802
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [4/50], Average Loss: 0.1056 Validation Loss: 0.0871
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [5/50], Average Loss: 0.0636 Validation Loss: 0.0660
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [6/50], Average Loss: 0.0566 Validation Loss: 0.0738
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [7/50], Average Loss: 0.0476 Validation Loss: 0.0709
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [8/50], Average Loss: 0.0399 Validation Loss: 0.0826
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [9/50], Average Loss: 0.0336 Validation Loss: 0.0385
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [10/50], Average Loss: 0.0289 Validation Loss: 0.0594
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [11/50], Average Loss: 0.0258 Validation Loss: 0.0470
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [12/50], Average Loss: 0.0203 Validation Loss: 0.0436
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [13/50], Average Loss: 0.0186 Validation Loss: 0.0484
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [14/50], Average Loss: 0.0158 Validation Loss: 0.0424
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [15/50], Average Loss: 0.0123 Validation Loss: 0.0469
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [16/50], Average Loss: 0.0140 Validation Loss: 0.0408
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [17/50], Average Loss: 0.0111 Validation Loss: 0.0345
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [18/50], Average Loss: 0.0101 Validation Loss: 0.0354
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [19/50], Average Loss: 0.0087 Validation Loss: 0.0416
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [20/50], Average Loss: 0.0124 Validation Loss: 0.0367
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [21/50], Average Loss: 0.0065 Validation Loss: 0.0451
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [22/50], Average Loss: 0.0090 Validation Loss: 0.0500
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [23/50], Average Loss: 0.0096 Validation Loss: 0.0388
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [24/50], Average Loss: 0.0040 Validation Loss: 0.0347
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [25/50], Average Loss: 0.0083 Validation Loss: 0.0479
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [26/50], Average Loss: 0.0051 Validation Loss: 0.0390
+壮荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [27/50], Average Loss: 0.0036 Validation Loss: 0.0485
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [28/50], Average Loss: 0.0108 Validation Loss: 0.0340
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [29/50], Average Loss: 0.0024 Validation Loss: 0.0410
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [30/50], Average Loss: 0.0081 Validation Loss: 0.0342
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [31/50], Average Loss: 0.0052 Validation Loss: 0.0466
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [32/50], Average Loss: 0.0046 Validation Loss: 0.0392
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [33/50], Average Loss: 0.0025 Validation Loss: 0.0447
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [34/50], Average Loss: 0.0091 Validation Loss: 0.0372
+壮障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [35/50], Average Loss: 0.0035 Validation Loss: 0.0376
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [36/50], Average Loss: 0.0031 Validation Loss: 0.0380
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [37/50], Average Loss: 0.0049 Validation Loss: 0.0395
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [38/50], Average Loss: 0.0050 Validation Loss: 0.0511
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [39/50], Average Loss: 0.0038 Validation Loss: 0.0426
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [40/50], Average Loss: 0.0042 Validation Loss: 0.0413
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [41/50], Average Loss: 0.0038 Validation Loss: 0.0467
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [42/50], Average Loss: 0.0036 Validation Loss: 0.0423
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [43/50], Average Loss: 0.0044 Validation Loss: 0.0414
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [44/50], Average Loss: 0.0023 Validation Loss: 0.0393
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [45/50], Average Loss: 0.0040 Validation Loss: 0.0488
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [46/50], Average Loss: 0.0035 Validation Loss: 0.0414
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [47/50], Average Loss: 0.0039 Validation Loss: 0.0432
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [48/50], Average Loss: 0.0039 Validation Loss: 0.0422
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [49/50], Average Loss: 0.0023 Validation Loss: 0.0388
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+Epoch [50/50], Average Loss: 0.0033 Validation Loss: 0.0405
+荘障摘磯辺鞍嵐紋宜忘枚K局超落
+
+
+Epoch [1/50], Average Loss: 7.9396 Validation Loss: 7.7954
+
+Epoch [2/50], Average Loss: 4.5729 Validation Loss: 0.7863
+俵耐俊署権赤裂操師憾座泳扱圧俣
+Epoch [3/50], Average Loss: 0.2676 Validation Loss: 0.1213
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [4/50], Average Loss: 0.0821 Validation Loss: 0.0956
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [5/50], Average Loss: 0.0604 Validation Loss: 0.0730
+俵耐俊器権赤裂操帥憾座泳扱圧俣
+Epoch [6/50], Average Loss: 0.0473 Validation Loss: 0.0634
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [7/50], Average Loss: 0.0445 Validation Loss: 0.0477
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [8/50], Average Loss: 0.0365 Validation Loss: 0.0532
+俵耐俊器権赤裂操帥憾座泳扱圧俣
+Epoch [9/50], Average Loss: 0.0330 Validation Loss: 0.0458
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [10/50], Average Loss: 0.0255 Validation Loss: 0.0498
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [11/50], Average Loss: 0.0239 Validation Loss: 0.0392
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [12/50], Average Loss: 0.0205 Validation Loss: 0.0357
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [13/50], Average Loss: 0.0135 Validation Loss: 0.0407
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [14/50], Average Loss: 0.0169 Validation Loss: 0.0415
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [15/50], Average Loss: 0.0128 Validation Loss: 0.0426
+俵耐俊器権赤裂操憾座泳扱圧俣
+Epoch [16/50], Average Loss: 0.0123 Validation Loss: 0.0337
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [17/50], Average Loss: 0.0066 Validation Loss: 0.0426
+俵耐俊器権赤裂操帥憾座泳扱圧俣
+Epoch [18/50], Average Loss: 0.0152 Validation Loss: 0.0326
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [19/50], Average Loss: 0.0065 Validation Loss: 0.0374
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [20/50], Average Loss: 0.0086 Validation Loss: 0.0340
+俵耐俊器権赤裂操帥憾座泳扱圧俣
+Epoch [21/50], Average Loss: 0.0059 Validation Loss: 0.0362
+俵耐俊器権赤裂操帥憾座泳扱圧俣
+Epoch [22/50], Average Loss: 0.0118 Validation Loss: 0.0392
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [23/50], Average Loss: 0.0063 Validation Loss: 0.0463
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [24/50], Average Loss: 0.0059 Validation Loss: 0.0337
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [25/50], Average Loss: 0.0014 Validation Loss: 0.0314
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [26/50], Average Loss: 0.0003 Validation Loss: 0.0309
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [27/50], Average Loss: 0.0002 Validation Loss: 0.0308
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [28/50], Average Loss: 0.0002 Validation Loss: 0.0304
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [29/50], Average Loss: 0.0001 Validation Loss: 0.0304
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [30/50], Average Loss: 0.0001 Validation Loss: 0.0309
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [31/50], Average Loss: 0.0001 Validation Loss: 0.0313
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [32/50], Average Loss: 0.0000 Validation Loss: 0.0322
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [33/50], Average Loss: 0.0001 Validation Loss: 0.0323
+俵耐俊器権赤裂操幅憾座泳扱圧俣
+Epoch [34/50], Average Loss: 0.0000 Validation Loss: 0.0328
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [35/50], Average Loss: 0.0000 Validation Loss: 0.0328
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [36/50], Average Loss: 0.0000 Validation Loss: 0.0329
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [37/50], Average Loss: 0.0000 Validation Loss: 0.0330
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [38/50], Average Loss: 0.0000 Validation Loss: 0.0332
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [39/50], Average Loss: 0.0000 Validation Loss: 0.0333
+俵耐俊器権赤裂操師憾座泳扱圧俣
+Epoch [40/50], Average Loss: 0.0000 Validation Loss: 0.0337
+俵耐俊器権赤裂操師憾座泳扱圧俣

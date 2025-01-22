@@ -1,0 +1,7 @@
+train_result/
+output/
+dist/
+build/
+data/
+model/
+venv/

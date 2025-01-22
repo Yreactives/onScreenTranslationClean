@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+train_result/
+output/
+dist/
+build/
+data/
+model/
+venv/
+
