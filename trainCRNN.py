@@ -1,8 +1,10 @@
+"""
 import numpy.random
-import torch
 import numpy as np
 import random
 import os
+"""
+import torch
 from functions import OCRDataset, decode_ctc_output, NPZDataset
 import pickle
 from torch.optim.lr_scheduler import ReduceLROnPlateau
@@ -12,6 +14,8 @@ import torch.nn as nn
 from PIL import Image
 import torchvision.transforms as transforms
 import torch.nn.functional as F
+
+"""
 def print_model_structure(model):
     for name, module in model.named_modules():
         print(f"{name}: {module}")
@@ -87,10 +91,7 @@ def set_all_seeds(seed_value=42):
     # Ensure CUBLAS is deterministic
     os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"
     torch.use_deterministic_algorithms(True, warn_only=False)
-
-
-import torch.nn.functional as F
-
+"""
 
 def train_data(model, dataloader, optimizer, criterion, device):
     model.train()
@@ -127,8 +128,6 @@ def train_data(model, dataloader, optimizer, criterion, device):
 
     return total_loss / len(dataloader), every_loss
 
-
-import torch.nn.functional as F
 
 def evaluate(model, dataloader, criterion, device):
     model.eval()  # Set the model to evaluation mode
@@ -245,5 +244,4 @@ if __name__ == "__main__":
             "losses": losses
         }
 
-
-        #torch.save(data, f"rnn_epoch_{epoch + 1 + epochs}.pth")
+        torch.save(data, f"rnn_epoch_{epoch + 1 + epochs}.pth")
